@@ -1,0 +1,234 @@
+body{
+    width: 95%;
+    margin: auto;
+    
+    
+}
+
+/* CSS for top section */
+.navbar{
+
+    position: relative;
+    display: flex;
+    max-width: 100vw;
+    z-index: +1;
+}
+.middle{
+    padding-top: 0px;
+    position: relative;
+    top: -200px;
+    z-index: -1;
+}
+
+.text{
+    text-align: left;
+    padding: 10px;
+}
+
+.left-navbar{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    right: 10px;
+
+
+}
+
+.swiper-slide{
+    font-style: oblique;
+    height: 100%;
+    gap: 10px;
+    padding: -100px;
+    margin: auto;
+}
+
+/* giving position absolute to place the text over the image */
+.middle-text{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    color: white;
+}
+
+.middle>img{
+    height: 400px;
+}
+
+.right{
+
+    color: white;
+    font-weight: bold;
+}
+.left img{
+    width: 180px;
+}
+nav{
+    padding: 0 15px 80px;
+}
+ul>li{
+    list-style: none;
+    padding: 0 8px;
+}
+button{
+    margin-left: 20px;
+    text-align: left;
+    width: 550px;
+    height: 30px;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    z-index: -1;
+}
+
+/* dropdown menu created on top */
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    min-width: 150px;
+    padding: 6px 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+.dropdown1:hover .dropdown-menu{
+    display: block;
+}
+
+
+/* css for mid images part */
+.mid-images{
+    margin-top: -150px;
+    padding-top: 0;
+    display: flex;
+}
+.mid-images>img{
+    width: 100%;
+}
+
+
+/* css for card 1 images */
+#cards1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+    
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+
+
+/* css for cards 2 images */
+#cards2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+/* css for cards 3 */
+#cards3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+/* css for cards 4 images */
+#cards4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+/* css for spotlight images */
+#spotlight{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+#spotlight>img{
+    padding: 15px;
+}
+
+
+
+/* css for footer part */
+#footer{
+    display: flex;
+}
+
+#about>ul>li,#products>ul>li,#travel-links>ul>li, #partners>ul>li{
+    margin: 10px;
+}
+
+#social-media{
+    margin: auto;
+}
+
+
+/* css for buying the plans */
+#destination-plans{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#destination-plans>div{
+    padding: -50px;
+    width: 70%;
+}
+#destination-plans>div>button{
+    width: 70%;
+    position: relative;
+    right: 20px;
+}
+
+.place{
+    text-align: left;
+    padding: 10px;
+}
+.place>button{
+    position: relative;
+    right: 20px;
+    width: 100px;
+}
+
+/* cart page */
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#container>div{
+    padding: -50px;
+    width: 70%;
+}
+#container>div>button{
+    width: 70%;
+    position: relative;
+    right: 20px;
+}
+
+.place{
+    text-align: left;
+    padding: 10px;
+}
+.place>button{
+    position: relative;
+    right: 20px;
+    width: 100px;
+}
